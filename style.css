@@ -1,0 +1,44 @@
+body {
+     padding-top: 50px;
+}
+
+pre {
+     background-color: #eee;
+     color: #000;
+}
+
+.color-swatch {
+     display: block;
+     width: 100px;
+     height: 100px;
+     -webkit-border-radius: 10px;
+     -moz-border-radius: 10px;
+     -ms-border-radius: 10px;
+     border-radius: 10px;
+}
+
+.swatch-name {
+     padding-top: 5px;    
+}
+
+
+.green {
+     background-color: #5cb85c;
+}
+
+
+.white {
+     border: 1px solid #0c0c0c;
+}
+
+.dark-green {
+     background-color: #1B5E20;
+}
+
+.grey {
+     background-color: #333;
+}
+
+.table-highlight {
+     background-color: #dff0d8;
+}
