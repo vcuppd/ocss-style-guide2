@@ -1,44 +1,178 @@
-body {
-     padding-top: 50px;
+/* References 
+-- Remove space between navbar and jumbotron: http://stackoverflow.com/questions/18410742/remove-space-between-navbar-and-jumbotron-in-bootstrap-3
+
+*/
+
+/*========================================*/
+
+
+
+/* Top Header */
+
+.navbar {
+     margin-bottom: 0;
 }
 
-pre {
-     background-color: #eee;
-     color: #000;
+.navbar-default {
+     background-color: #5cb85c;
+     border-color: #5cb85c;
 }
+
+.navbar-brand {
+     padding-left: 25px;
+}
+
+.navbar-default .navbar-brand {
+    color: #fff;
+}
+
+.navbar-default .navbar-brand:visited {
+     color: #fff;
+     background-color: transparent;
+}
+
+.navbar-default .navbar-brand:hover {
+     color: #fff;
+     background-color: transparent;
+     text-decoration: underline;
+}
+/*========================================*/
+
+
+/* Navigation */
+
+.navbar-right { 
+     padding-right: 25px;
+}
+
+
+.nav .navbar-nav > li >a {
+     color: #fff;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #fff;
+}
+
+.navbar-default .navbar-nav > li > a:visited {
+     color: #fff;
+}
+
+.navbar-default .navbar-nav>li>a:focus,
+.navbar-default .navbar-nav > li > a:hover {
+     color: #fff;
+     background-color: transparent;
+     text-decoration: underline;
+}
+
+/*========================================*/
+
+
+/* Navigation Toggle Button */
+
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
+    background-color: #33691E;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+/*========================================*/
+
+/* Call to Action - Intro page */
+
+.jumbotron {
+     margin-bottom: 0px; 
+     background-color: #5cb85c;
+     color: #fff;
+}
+
+
+/*
+#intro {
+     background-color: #5cb85c;
+     color: #fff;
+     padding: 30px;
+     margin-top: 0;
+}
+*/
+
+
+/*
+a {
+     color: #fff;
+}
+
+a:visited,
+a:hover {
+     color: #fff;
+     text-decoration: underline;
+}
+*/
+
+/*========================================*/
+
+/* Styles Info Area */
+
+#styles {
+     padding: 20px;
+}
+
+/*========================================*/
+
+
+/* Colors */
 
 .color-swatch {
-     display: block;
-     width: 100px;
-     height: 100px;
-     -webkit-border-radius: 10px;
-     -moz-border-radius: 10px;
-     -ms-border-radius: 10px;
-     border-radius: 10px;
+  border: 1px solid #000;
+  width: 80px;
+  height: 80px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  border-radius: 10px;
 }
 
-.swatch-name {
-     padding-top: 5px;    
+.color-text {
+  padding-top: 5px;
+  font-size: 12px;
 }
 
+.background {
+     background-color: #ffffff;
+}
 
-.green {
+.second-main {
      background-color: #5cb85c;
 }
 
-
-.white {
-     border: 1px solid #0c0c0c;
-}
-
-.dark-green {
-     background-color: #1B5E20;
-}
-
-.grey {
+.text {
      background-color: #333;
 }
 
-.table-highlight {
+.nav-hover-link {
+     background-color: #1B5E20;
+}
+
+.table-stripes {
      background-color: #dff0d8;
+}
+
+.shadow {
+     background-color: #000;
+}
+
+/*========================================*/
+
+
+/* Footer */
+
+footer {
+     padding: 100px 15px 15px 15px;
+}
+
+address strong a {
+     color: #337ab7;
 }
