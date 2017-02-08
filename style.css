@@ -173,6 +173,99 @@ a:hover {
 
 }
 
+.table {
+     /* Simple Dropshadow */
+     -webkit-box-shadow: 6px 6px 17px 0px rgba(0,0,0,0.26);
+     -moz-box-shadow: 6px 6px 17px 0px rgba(0,0,0,0.26);
+     box-shadow: 6px 6px 17px 0px rgba(0,0,0,0.26);
+}
+
+/*========================================*/
+
+
+/* OCSS Site Navigation */
+
+.navbar-inverse {
+     border-radius: 0;
+     -webkit-border-radius: 0;
+     -moz-border-radius: 0;
+     -ms-border-radius: 0;
+     -o-border-radius: 0;   
+     background-color: #5cb85c;
+     border-color: #5cb85c;
+
+}
+
+.navbar-inverse .navbar-brand, 
+.navbar-inverse .navbar-nav>li>a {
+    color: #fff;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover,
+ .navbar-inverse .navbar-brand:hover {
+    color: #fff;
+    background-color: #1B5E20;
+}
+
+/*========================================*/
+
+
+/* Panels */
+
+.panel {
+     /* Simple Dropshadow */
+     -webkit-box-shadow: 6px 6px 17px 0px rgba(0,0,0,0.26);
+     -moz-box-shadow: 6px 6px 17px 0px rgba(0,0,0,0.26);
+     box-shadow: 6px 6px 17px 0px rgba(0,0,0,0.26);
+}
+
+.panel-success>.panel-heading, 
+.panel-footer {
+    color: #fff;
+    background-color: #5cb85c;
+    border-color: #398439;
+}
+
+.panel-footer a {
+    color: #fff;
+}
+
+/*========================================*/
+
+
+/* Nav Tabs */
+
+.nav-tabs>li.active>a, 
+.nav-tabs>li.active>a:focus, 
+.nav-tabs>li.active>a:hover {
+    color: #fff;
+    cursor: default;
+    background-color: #5cb85c;
+    border: 1px solid #ddd;
+    border-bottom-color: transparent;
+}
+
+.tab-content>.active  {
+    padding: 10px;
+    background-color: #5cb85c;
+    color: #fff;
+}
+
+.tab-pane .content>.active {
+     padding: 10px; 
+     background-color: #5cb85c;
+     color: #fff;
+}
+
+.nav-tabs>li.active>a, 
+.nav-tabs>li.active>a:focus, 
+.nav-tabs>li.active>a:hover,
+.nav>li>a:hover {
+   text-decoration: underline;
+   background-color: #5cb85c;
+   color: #fff;
+}
+
 /*========================================*/
 
 

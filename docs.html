@@ -328,7 +328,7 @@
                               <div class="col-md-12">
                                    <h2>Table</h2>
                                    <p>The table has the Bootstrap styles <code>.table</code>, <code>.table-striped</code>, 
-                                   <code>.table-condensed</code> applied to the <code>&lt;table&gt;</code> element. The stripes in the table are customized to have <code>background-color: #dff0d8;</code> to go with the site color theme. There is also a Font-Awesome character [<code>.fa .fa-check-square-o</code>] used in the table to denote which modules should be completed for each role.</p>
+                                   <code>.table-condensed</code> applied to the <code>&lt;table&gt;</code> element. The stripes in the table are customized to have <code>background-color: #dff0d8;</code> to go with the site color theme. There is also a Font-Awesome character [<code>.fa .fa-check-square-o</code>] used in the table to denote which modules should be completed for each role. There is also a drop shadow added to the table to give it a simple 3D look.</p>
                                    
                                    <br>
                                    
@@ -370,15 +370,116 @@
                               </div>
                           </div>
                          <!-- END Table -->
+                         <hr>
+                         
+                         <!-- Components -->
+                         <div class="row">
+                              <div class="col-md-12">
+                                   <h2>Components</h2>
+                                   <p>The following components are using the Bootstrap classes but have custom styles applied to match the sites theme.</p>
+                                   
+                                   <!-- Navbar -->
+                                   <h3>Navbar</h3>
+                                   <p>This element has the usual Bootstrap classes to set up a basic navigation bar. The following styles are applied to have the navigation follow the site's color theme.</p>
+                                   
+                                   <!-- Styles Example -->
+                                   <p class="well">
+                                        <code>
+                                            .navbar-inverse { <br>
+                                                  border-radius: 0; <br>
+                                                  -webkit-border-radius: 0; <br>
+                                                  -moz-border-radius: 0; <br>
+                                                  -ms-border-radius: 0; <br>
+                                                  -o-border-radius: 0; <br>   
+                                                  background-color: #5cb85c; <br>
+                                                  border-color: #5cb85c; <br>
+
+                                             }
+                                             <br>
+                                             .navbar-inverse .navbar-brand, <br>
+                                             .navbar-inverse .navbar-nav>li>a {<br>
+                                                 color: #fff;<br>
+                                             }
+                                             <br>
+                                             .navbar-inverse .navbar-nav>li>a:hover, <br>
+                                              .navbar-inverse .navbar-brand:hover { <br>
+                                                 color: #fff; <br>
+                                                 background-color: #1B5E20; <br>
+                                             }
+                                        </code>
+                                   </p>                             
+                                   <!-- END Styles Example -->
+                                                                 
+                                   <!-- END Navbar -->
+                                   
+                                   <!-- Nav Tabs -->
+                                   <h3>Nav Tabs</h3>
+                                   <p>These use <code>.nav</code>, <code>.nav-tabs</code>, <code>.tabe-content</code>, <code>.tap-pane</code>, and <code>.content</code> classes to style the Frequently Asked Questions (FAQ) section on the home page. Each <code>.tab-pane</code> has a unique <code>&lt;id&gt;</code> so the <code>data-toggle="tab"</code> can be directed to the correct content.</p>
+                                   
+                                   <br>
+                                   
+                                   <!-- Nav Tabs Example -->
+                                   <ul  class="nav nav-tabs">
+                                        <li class="active">
+                                        <a  href="#1b" data-toggle="tab">Annual Refresher Training</a>
+                                        </li>
+                                   </ul>
+                                   <div class="tab-content">
+                                        <div class="tab-pane active" id="1b">
+                                             <p class="content">
+                                                  <dl>
+                                                    <dt>Q. How do I view the slides in “full screen” mode and in “outline/notes” mode? </dt>
+
+                                                    <br>
+
+                                                    <dd>A. Click on the double arrow icon to go between “full screen” mode and “outline/notes” mode. When you click “notes,” you can view the script as it is narrated. The “outline” mode displays the title or main topic of the slides (slides with “screen” shots do not show words in the outline mode) and lets you navigate forward and backwards through slides.</dd>
+
+                                                    <hr class="faq">
+
+                                                    <dt>Q. How do I stop the webinar if I need to take a break? </dt>
+
+                                                    <br>
+
+                                                    <dd>A. To pause the Webinar, click on the double parallel bars. When you are ready to proceed, click on the forward (arrow) button.</dd>
+                                                  </dl>
+                                             </p>
+                                        </div>
+                                   <!-- END Nav Tabs -->
+                              </div>
+                                   <!-- END Nav Tabs Example -->
+                                   <!-- END Nav Tabs -->
+                                   
+                                   <!-- Panels -->
+                                   <h3>Panels</h3>
+                                   <p>The panels use the Bootstrap class <code>.panel .panel-success</code> classes and are show on the home page as well as the module pages. A simple drop shadow is added to give the panels a 3D effect.</p>
+                                   
+                                   <!-- Panel Example -->
+                                   <div class="panel panel-success">
+                                        <div class="panel-heading">
+                                             <h3 class="panel-title">Module 1</h3>
+                                        </div>
+                                        <div class="panel-body">
+                                        Required for staff who determine the need for Options Counseling, Options Counselors, Options Counseling Supervisors, and Executive Directors <br> (Approximately 45 minutes)
+                                        </div>
+                                        <div class="panel-footer">
+                                             <a href="module1.html">Continue to Module 1</a>
+                                        </div>
+                                   </div>
+                                   <!-- END Panel Example -->
+                                   <!-- END Panels -->
+                              </div>
+                              <!-- END Components -->
                     
-               </div>
-               <!-- END Styles -->
+                         </div>
+
               </div>
+              <!-- END Styles -->
               
+              <!-- Site Layout and Grid -->
+              <!-- END Site Layout and Grid -->
               
-              <!--Footer -->
+              <!--Footer -->         
                <footer>
-                <hr>
                  <address>
                     <strong><a href="http://www.vcu.edu">Virginia Commonwealth University</a></strong><br>
                     <strong><a href="http://www.soe.vcu.edu/">School of Education</a></strong><br>
