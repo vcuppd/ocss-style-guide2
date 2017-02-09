@@ -283,21 +283,42 @@ a:hover {
 
 /*========================================*/
 
-/* From Bootstrap 3 CSS */
-.show-grid [class^=col-] {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    background-color: #eee;
-    background-color: rgba(86,61,124,.15);
-    border: 1px solid #ddd;
-    border: 1px solid rgba(86,61,124,.2);
+/* Side Navigation */
+
+#top-nav {
+     padding-top: 40px;
 }
+
+#top-nav li {
+     padding: 15px;
+}
+
+#top-nav li a {
+    padding: 10px;
+    font-size: 16px;
+    border: 2px #eee solid;
+    -webkit-border-radius: 10px;  
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    border-radius: 10px;
+    background-color: #5cb85c;
+    color: #fff;
+}
+
+#top-nav li a:hover {
+     text-decoration: none;
+     background-color: #dff0d8;
+     color: #1B5E20;
+     
+}
+
+/*========================================*/
 
 
 /* Footer */
 
 footer {
-     padding: 100px 15px 15px 15px;
+     padding: 80px 15px 15px 15px;
 }
 
 address strong a {

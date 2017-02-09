@@ -13,12 +13,15 @@
      
      <!-- Custom CSS -->
      <link rel="stylesheet" href="style.css">
+     
+     <!-- Anchor JS -->
+     <script src="anchor.min.js"></script>
 </head>
 
 <body>
    
      <!-- Top Header -->
-     <div class="row">
+     <div id="top" class="row">
           <nav class="navbar navbar-default">
                <a class="navbar-brand" href="#">Options Counseling Style Guide</a>
                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu" aria-expanded="false">
@@ -38,23 +41,35 @@
           </nav>
      </div>
      <!-- END Top Header -->
+     
+     <!-- Hero Section -->
+     <div class="jumbotron">
+          <div class="container">
+               <h1>Style Guide</h1>
+               <p class="lead">Select one of the many css styles or components from the menu below to view how they are used on the Options Counseling website.</p>
+          </div>
+     </div>
+     <!-- END Hero Section -->
    
     <!-- Content Container -->
      <div class="container">
          <div class="row">
                <!-- Side Navigation -->
-               <div class="col-md-3">
-                    <ul class="list-group">
-                      <li class="list-group-item">Colors</li>
-                      <li class="list-group-item">Typography</li>
-                      <li class="list-group-item">Porta ac consectetur ac</li>
-                      <li class="list-group-item">Vestibulum at eros</li>
+               <div class="col-md-12">
+                    <ul id="top-nav" class="nav nav-pills">
+                         <li role="presentation"><a href="#colors">Colors</a></li>
+                         <li role="presentation"><a href="#typography">Typography</a></li>
+                         <li role="presentation"><a href="#images">Images</a></li>
+                         <li role="presentation"><a href="#buttons">Buttons</a></li>
+                         <li role="presentation"><a href="#table">Table</a></li>
+                         <li role="presentation"><a href="#components">Components</a></li>
+                         <li role="presentation"><a href="#grid-and-site-layout">Grid and Site Layout</a></li>
                     </ul>
-               </div>
+              </div>
                <!-- END Side Navigation -->
 
                <!-- Styles -->
-               <div id="styles" class="col-md-9">
+               <div id="styles" class="col-md-12">
                     
                          <!-- Colors -->
                          <div class="row">
@@ -164,7 +179,8 @@
                                         Pantone Solid Coated Black 6 C
                                      </p>   
                                    </div>
-                              </div>          
+                              </div>   
+                              <a class="pull-right" href="#top">Return to top</a>       
                          </div>
                          <!-- END Colors -->
                          <hr>
@@ -203,6 +219,7 @@
                                         </code> 
                                    </p>
                               </div>
+                              <a class="pull-right" href="#top">Return to top</a>      
                          </div>
                          <!-- Typography -->
                          <hr>
@@ -301,6 +318,7 @@
                                    </div>        
   
                               </div>
+                              <a class="pull-right" href="#top">Return to top</a>      
                          </div>
                          <!-- END Images -->
                          <hr>
@@ -319,6 +337,7 @@
                                         <code>&lt;a class="btn btn-success btn-lg btn-block" role="button"&gt;Refresher Quiz&lt;/a&gt;&lt;/code&gt;</code>
                                    </p>
                               </div>
+                              <a class="pull-right" href="#top">Return to top</a>      
                          </div>
                          <!-- END Buttons -->
                          <hr>
@@ -368,6 +387,7 @@
                                         <!-- END Module Requirements For Staff Who Determine The Need -->  
                                    </table>
                               </div>
+                              <a class="pull-right" href="#top">Return to top</a>      
                           </div>
                          <!-- END Table -->
                          <hr>
@@ -469,7 +489,7 @@
                                    <!-- END Panels -->
                               </div>
                               <!-- END Components -->
-                    
+                              <a class="pull-right" href="#top">Return to top</a>      
                          </div>
                          <!-- END Components -->
                          <hr>
@@ -508,7 +528,7 @@
                                    
                                    <!-- Training Requirements -->
                                    <div class="col-md-12">
-                                        <h2>Training Requirements</h2>
+                                        <h3>Training Requirements</h3>
                                         <table class="table table-striped table-condensed">
                                              <thead>
                                                   <tr>
@@ -546,7 +566,7 @@
                                    
                                    <!-- Modules -->
                                    <div class="col-md-12">
-                                        <h2>Modules</h2>
+                                        <h3>Modules</h3>
                                         <p><strong>Lorem ipsum dolor sit amet</strong></p>
                                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam deleniti ratione, animi, maxime enim dolor perferendis incidunt dolores accusantium autem illum corporis, eveniet reprehenderit ipsam. Magni numquam perspiciatis, quia qui!</p>
                                         
@@ -637,7 +657,7 @@
                                    
                                    <!-- Refresher -->
                                    <div class="col-md-12">
-                                        <h2>Refresher</h2>
+                                        <h3>Refresher</h3>
                                         <div class="row">
                                         <div class="col-sm-6">
                                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita esse dicta cum est, explicabo porro. Id quis sequi cumque iste aut repellendus asperiores, aliquid, quidem minus ex error aliquam, enim.</p>
@@ -665,7 +685,7 @@
                          
                                    <!-- Frequently Asked Questions -->
                                    <div class="col-md-12">
-                                        <h2>Frequently Asked Questions (FAQs)</h2>
+                                        <h3>Frequently Asked Questions (FAQs)</h3>
 
                                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi aspernatur, similique fugiat velit iusto nam excepturi nemo aliquam deserunt alias in minima error eum amet commodi reprehenderit, expedita nihil cumque?
                                         </p>
@@ -731,7 +751,7 @@
                                    <!-- END Footer -->
                               </div>
                               <!-- END Home Page Layout -->
-                              
+                              <hr>
                               <!-- Module Page Layout -->
                               <div class="row show-grid">
                                    <h3>Module Page Layout</h3>
@@ -867,13 +887,17 @@
                               
                               </div>
                               <!-- Module Page Layout -->
+                              <hr>
+                              <a class="pull-right" href="#top">Return to top</a>      
                          </div>
                          <!-- END Grid and Site Layout -->
 
               </div>
               <!-- END Styles -->
               
-              <!--Footer -->         
+              
+               <!--Footer -->   
+               <hr>      
                <footer>
                  <address>
                     <strong><a href="http://www.vcu.edu">Virginia Commonwealth University</a></strong><br>
@@ -901,15 +925,22 @@
      </div>
      <!-- END Content Container -->
      
-     
-   
-    
-    
     
      <!-- jQuery -->
      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
      <!-- Bootstrap JavaScript -->
      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+     
+     <!-- Anchor JS Script -->
+      <script>
+           anchors.options = {
+            placement: 'left',
+            visible: 'always',
+          };
+           
+           anchors.add('h2');
+           anchors.elements('h2');
+     </script>
 </body>
 </html>
